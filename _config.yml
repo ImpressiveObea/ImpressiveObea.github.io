@@ -208,6 +208,13 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 >>>>>>> f1c4556bb0653aa70bbac943785ec5f5cb928a93
 markdown: kramdown
 highlighter: rouge
