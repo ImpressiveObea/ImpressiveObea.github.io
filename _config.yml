@@ -18,7 +18,7 @@ locale                   : "en-US"
 title                    : "English.Literature.Music."
 title_separator          : "-"
 name                     : "Александр Капусткин"
-description              : "Учитель,литературовед,переводчик."
+description              : "English.Literature.Music."
 url                      : "http://kapustkin.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ImpressiveObea/ImpressiveObea"
@@ -44,21 +44,14 @@ staticman:
       options:
         format           : "timestamp-seconds"
 reCaptcha:
-  siteKey                :6LfghXgUAAAAANisOoO7Sw_vg68ljFuPpk9zdffB
-  secret                 :6LfghXgUAAAAAMagyXUrFlWyuxBYhRSe7ZjnVa5F
+  siteKey                :"6LfghXgUAAAAANisOoO7Sw_vg68ljFuPpk9zdffB"
+  secret                 :"lED1NUDGWXmdhlrJeLBxLunhaLfBbjIkjR25BEF+ZZhzyJ3acAIax9olnTTK4QyMRa/OC6yUKv6pN7vLFZMoElKtcvNiDvJahCD8ZyD81tVIefxyR5BfGZVIo46VTUh39NHie2otaLyb/oLAoqaO9c57aWWJVjY+CZp+s5a7ofg="
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+search                   : true
+search_full_content      : true
+search_provider          : lunr
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -67,9 +60,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               :&twitter "lifewithinglove"
 facebook:
-  username               :
+  username               :&facebook "wow.naturalin"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -78,7 +71,9 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+       - "https://twitter.com/lifewithinglove"
+       - "https://vk.com/impressiveone"
 
 # Analytics
 analytics:
@@ -90,11 +85,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Александр Капусткин"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Преподаватель английского языка, переводчик, музыкант, аспирант."
+  location         : "Иваново"
+  # email            :
+  uri              : about
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -104,20 +100,20 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+       url: "https://twitter.com/lifewithinglove"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/wow.naturalin"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+       url: "https://www.instagram.com/_impressiveone_/"
 
 # Site Footer
-footer:
-  links:
+#footer:
+  #links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
