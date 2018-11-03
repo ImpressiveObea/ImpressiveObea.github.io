@@ -11,10 +11,6 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 <<<<<<< HEAD
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air"
-=======
-
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 >>>>>>> dee25588086e7fd6297dcc6483edbe01346695d8
