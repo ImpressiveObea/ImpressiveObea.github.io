@@ -88,25 +88,12 @@ author:
   location         : "Иваново"
   # email            :
   uri              : about
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/lifewithinglove"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/wow.naturalin"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-       url: "https://www.instagram.com/_impressiveone_/"
+  # home           :
+  github           : "ImpressiveObea"
+  # keybase        :
+  linkedin         : "alexander-kapustkin-200351148"
+  twitter          : "lifewithinglove"
+  instagram        : "_impressiveone_"
 
 # Site Footer
 #footer:
