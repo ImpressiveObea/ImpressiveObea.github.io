@@ -14,48 +14,38 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ru-RU"
-title                    : "Site Title"
+locale                   : "en-US"
+title                    : "English.Literature.Music."
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Александр Капусткин"
+description              : "Учитель,литературовед,переводчик."
+url                      : "http://kapustkin.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ImpressiveObea/ImpressiveObea"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+# breadcrumbs            :  # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+  provider               : "staticman_v2"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields          : ["name", "email", "message"]
+  branch                 : "master"
+  commitMessage          : "Новый комментарий {fields.name}"
+  filename               : "entry{@timestamp}"
+  format                 : "yaml"
+  moderation             : true
+  path                   : "/_data/comments/{options.slug}"
+  requiredFields         : ['name', 'message']
   transforms:
-    email                : # "md5"
+    email                : "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+        format           : "timestamp-seconds"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                :6LfghXgUAAAAANisOoO7Sw_vg68ljFuPpk9zdffB
+  secret                 :6LfghXgUAAAAAMagyXUrFlWyuxBYhRSe7ZjnVa5F
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
