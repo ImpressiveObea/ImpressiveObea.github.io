@@ -87,7 +87,7 @@ author:
   bio              : "Преподаватель английского языка, переводчик, музыкант, аспирант."
   location         : "Иваново"
   # email            :
-  uri              : about
+  uri              : "about"
   # home           :
   github           : "ImpressiveObea"
   # keybase        :
