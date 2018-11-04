@@ -22,7 +22,7 @@ description              : "English.Literature.Music."
 url                      : "http://kapustkin.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ImpressiveObea/ImpressiveObea"
-teaser                   : "/assets/engphone.jpg"
+teaser                   : "/assets/engphone.png"
 # breadcrumbs            :  # true, false (default)
 words_per_minute         : 200
 comments:
