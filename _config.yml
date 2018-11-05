@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Александр Капусткин"
-  avatar           : "/assets/bioph.jpg"
+  avatar           : "/assets/bioph.png"
   bio              : "Преподаватель английского языка, переводчик, музыкант, аспирант."
   location         : "Иваново"
   # email            :
